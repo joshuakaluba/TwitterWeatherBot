@@ -2,10 +2,10 @@ var sql = require('mssql');
 var dbConnection;
 
 var config = {
-    server: process.env.HOSTNAME,
-    database: process.env.DBNAME,
-    user: process.env.DBUSERNAME,
-    password: process.env.DBPASSWORD
+    server: process.env.WEATHERBOT_HOSTNAME,
+    database: process.env.WEATHERBOT_DBNAME,
+    user: process.env.WEATHERBOT_DBUSERNAME,
+    password: process.env.WEATHERBOT_DBPASSWORD
 };
 
 var registeredAccountManager = {};
